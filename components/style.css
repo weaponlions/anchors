@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    border: 1px solid #413e3e;
+    top: 30%;
+    left: 30%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    border-radius: .5rem;
+    padding: 2rem;
+    width: 25vw;
+}
+
+.btn {
+    background-color: rgb(219, 219, 219);
+    margin: 20px auto;
+    border-radius: 2rem;
+}
+
+.btn:hover {
+    background-color: rgba(219, 219, 219, 0.8); 
+}
+
+.modal-input{
+    border: 1px solid rgb(67 70 72);
+    padding: 10px;
+}
+
+.callback {
+    color: #fff;
+    text-align: center;
+}
+
+#NxtBtn {
+    background: red;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
